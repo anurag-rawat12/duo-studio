@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+@media (max-width:720px) {
+    #dot {
+        visibility: hidden;
+    }
+
+    #navtext {
+        font-size: 3.5vw;
+        justify-content: center;
+        gap: 12px;
+        margin-left: 100px;
+    }
+
+    #duoimg {
+        width: 30px;
+    }
+
+    #page1 {
+        padding-top: 100px;
+    }
+
+    .word {
+        font-size: 7.5vw;
+    }
+
+    #page1 video {
+        margin-top: 50px;
+    }
+
+    .word:nth-child(1) {
+        margin-left: 20vw;
+    }
+
+    .word:nth-child(2) {
+        margin-left: 15vw;
+    }
+
+    #page2 {
+        padding-top: 30vw;
+        padding-bottom: 15vw;
+    }
+
+    #we {
+        font-size: 10.5vw;
+        font-weight: 600;
+    }
+
+    #creative {
+        font-size: 7vw;
+        margin-top: 10vw;
+    }
+
+    #aboutbox {
+        width: 40%;
+    }
+
+    #about {
+        margin-top: 15vw;
+        font-size: 3vw;
+    }
+
+    #aboutbtn {
+        font-size: 4vw;
+    }
+
+    #page3 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page4heading {
+        font-size: 4vw;
+        line-height: 5vw;
+        padding: 2vw 9vw;
+    }
+
+    #strategy,
+    #identity,
+    #experience {
+        height: 15vw;
+    }
+
+    #strategyimg1 {
+        top: -10vw;
+    }
+
+    #experienceimg1 {
+        top: -10vw;
+    }
+
+    #identityimg2 {
+        top: -10vw;
+    }
+
+    #page4viewclient {
+        font-size: 2vw;
+    }
+
+    #leftText {
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    #rightText {
+        font-size: 3vw;
+        font-weight: 500;
+        gap: 3vw;
+    }
+
+    #page5{
+        padding: 10vw 4vw;
+    }
+}
